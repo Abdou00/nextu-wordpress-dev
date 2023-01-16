@@ -1,0 +1,9 @@
+* html .group {
+    /* IE6*/
+    height: 1%;
+}
+
+:first-child + html .group {
+    /* IE 7 */
+    min-height: 1px;
+}
